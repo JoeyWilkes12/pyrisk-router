@@ -1,0 +1,37 @@
+---
+# Change this one URL; publish the approved change on main.
+redirect_url: "https://pyrisk-field-manual.vercel.app/"
+layout: null
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="PyRisk: a field manual for predicting Risk by Joey Wilkes. Learn supervised machine learning through 5,141 simulated six-player Risk games, game-grouped splits, calibration and uncertainty, TreeSHAP attribution, and survival analysis.">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_url | escape }}">
+    <link rel="canonical" href="{{ page.redirect_url | escape }}">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23d9622b'/%3E%3Cpath d='M10 7l12 18' stroke='white' stroke-width='3'/%3E%3C/svg%3E">
+    <title>PyRisk field manual</title>
+    <style>
+      body { margin: 2rem; color: #20252b; background: #fff; font: 1rem/1.5 system-ui, sans-serif; }
+      main { max-width: 40rem; }
+      h1 { margin: 0 0 .5rem; font-size: 1.5rem; }
+      a { display: inline-flex; align-items: center; min-height: 44px; color: #0758b3; overflow-wrap: anywhere; }
+      a:hover { text-decoration-thickness: 2px; }
+      a:focus-visible { outline: 2px solid #0758b3; outline-offset: 4px; }
+    </style>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebApplication","name":"PyRisk field manual","applicationCategory":"EducationalApplication","url":{{ page.redirect_url | jsonify }},"author":{"@type":"Person","name":"Joey Wilkes"}}
+    </script>
+    <script>
+      window.location.replace({{ page.redirect_url | jsonify }});
+    </script>
+  </head>
+  <body>
+    <main>
+      <h1>PyRisk field manual</h1>
+      <a href="{{ page.redirect_url | escape }}">Continue to the PyRisk field manual</a>
+    </main>
+  </body>
+</html>

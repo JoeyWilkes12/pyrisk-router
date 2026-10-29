@@ -1,0 +1,11 @@
+url: "https://joeywilkes12.github.io"
+baseurl: "/pyrisk-router"
+exclude:
+  - README.md
+  - MAINTENANCE.md
+  - AGENTS.md
+  - CLAUDE.md
+  - scripts
+  - output
+  - CHANGELOG.md
+  - .empower
